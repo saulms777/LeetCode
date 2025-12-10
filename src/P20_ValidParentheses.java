@@ -2,7 +2,7 @@ import java.util.Map;
 import static java.util.Map.entry;
 import java.util.Stack;
 
-public class P15_ValidParentheses {
+public class P20_ValidParentheses {
 
     public boolean isValid(String s) {
         Map<Character, Character> matching = Map.ofEntries(
