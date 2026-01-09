@@ -1,0 +1,7 @@
+WITH U AS (
+    SELECT DISTINCT MIN(id)
+    FROM Person
+    GROUP BY email
+)
+DELETE FROM Person
+WHERE id NOT IN (SELECT * FROM U);
