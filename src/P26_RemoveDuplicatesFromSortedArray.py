@@ -1,7 +1,7 @@
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums: list[int]) -> int:
         p, j = -101, 0
-        for i, n in enumerate(nums):
+        for n in nums:
             if p != n:
                 p = n
                 nums[j] = n

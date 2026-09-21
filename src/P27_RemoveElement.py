@@ -1,7 +1,7 @@
 class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+    def removeElement(self, nums: list[int], val: int) -> int:
         j = 0
-        for i, n in enumerate(nums):
+        for n in nums:
             if n != val:
                 nums[j] = n
                 j += 1
