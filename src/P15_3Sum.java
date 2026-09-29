@@ -21,12 +21,4 @@ public class P15_3Sum {
         return triplets;
     }
 
-    public static void main(String[] args) {
-        P15_3Sum p = new P15_3Sum();
-        System.out.println(p.threeSum(new int[]{-1, 0, 1, 2, -1, -4})); // [[-1, -1, 2], [-1, 0, 1]]
-        System.out.println(p.threeSum(new int[]{0, 1, 1})); // []
-        System.out.println(p.threeSum(new int[]{0, 0, 0})); // [[0, 0, 0]]
-        System.out.println(p.threeSum(new int[]{0, 0, 0, 0}));
-    }
-
 }
